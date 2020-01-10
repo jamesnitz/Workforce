@@ -1,0 +1,21 @@
+.employees{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly
+}
+
+.employees__Card{
+  border: 1px solid red;
+  margin: 10px;
+  padding: 20px;
+}
+
+.customers{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.customer__Card{
+  border: 1px solid red;
+  padding: 20px;
+}

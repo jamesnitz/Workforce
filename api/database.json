@@ -1,0 +1,168 @@
+{
+  "computers": [
+      {
+          "id": 1,
+          "model": "Macbook Pro",
+          "year": 2015
+      },
+      {
+          "id": 2,
+          "model": "Dell Something or other",
+          "year": 2019
+      },
+      {
+          "id": 3,
+          "model": "Googlebox",
+          "year": 2055
+      },
+      {
+          "id": 4,
+          "model": "Netflix Machine",
+          "year": 3000
+      },
+      {
+          "id": 5,
+          "model": "Runescaper",
+          "year": 3055
+      }
+  ],
+  "employees": [
+      {
+          "id": 1,
+          "firstName": "Thomas",
+          "lastName": "Anderson",
+          "computerId": 1,
+          "departmentId": 1,
+          "locationId": 3
+      },
+      {
+          "id": 2,
+          "firstName": "James",
+          "lastName": "Nitz",
+          "computerId": 2,
+          "departmentId": 2,
+          "locationId": 3
+      },
+      {
+          "id": 3,
+          "firstName": "Willy",
+          "lastName": "Metcalf",
+          "computerId": 3,
+          "departmentId": 3,
+          "locationId": 3
+      },
+      {
+          "id": 4,
+          "firstName": "The",
+          "lastName": "Devil",
+          "computerId": 4,
+          "departmentId": 4,
+          "locationId": 2
+      },
+      {
+          "id": 5,
+          "firstName": "My",
+          "lastName": "Dad",
+          "computerId": 4,
+          "departmentId": 4,
+          "locationId": 1
+      }
+  ],
+  "departments" : [
+    {
+      "id": 1,
+      "name": "Quality Assurance"
+    },
+    {
+      "id": 2,
+      "name": "Sales"
+    },
+    {
+      "id": 3,
+      "name": "Accounting"
+    },
+    {
+      "id": 4,
+      "name": "Technology"
+    }
+  ],
+  "locations": [
+    {
+    "id": 1,
+    "name": "Nashville"
+    },
+    {
+    "id": 2,
+    "name": "Atlanta"
+    },
+    {
+    "id": 3,
+    "name": "Memphis"
+    }
+  ],
+  "customers": [
+    {
+        "id": 1,
+        "name": "Juniper Distribution"
+    },
+    {
+        "id": 2,
+        "name": "Company Co."
+    },
+    {
+        "id": 3,
+        "name": "Cold Ice Inc."
+    },
+    {
+        "id": 4,
+        "name": "SLABS Unlimited"
+    }
+],
+"employeeCustomers": [
+    {
+        "id": 1,
+        "customerId": 1,
+        "employeeId": 1
+    },
+    {
+        "id": 2,
+        "customerId": 2,
+        "employeeId": 2
+    },
+    {
+        "id": 3,
+        "customerId": 3,
+        "employeeId": 5
+    },
+    {
+        "id": 4,
+        "customerId": 2,
+        "employeeId": 5
+    },
+    {
+        "id": 5,
+        "customerId": 2,
+        "employeeId": 4
+    },
+    {
+        "id": 6,
+        "customerId": 4,
+        "employeeId": 4
+    },
+    {
+        "id": 7,
+        "customerId": 3,
+        "employeeId": 4
+    },
+    {
+        "id": 8,
+        "customerId": 1,
+        "employeeId": 3
+    },
+    {
+      "id": 9,
+      "customerId": 4,
+      "employeeId": 2 
+    }
+]
+}
